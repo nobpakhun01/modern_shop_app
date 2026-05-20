@@ -77,14 +77,14 @@ lib/
 
 | หน้าแอป | ภาพตัวอย่าง |
 |---|---|
-| หน้า Login | ![Login Screen](screenshots/login.png) |
-| หน้า Register | ![Register Screen](screenshots/register.png) |
-| หน้า Home แสดงสินค้า | ![Home Screen](screenshots/home.png) |
-| หน้ารายละเอียดสินค้า | ![Product Detail Screen](screenshots/product_detail.png) |
-| หน้าเพิ่มหรือแก้ไขสินค้า | ![Product Form Screen](screenshots/product_form.png) |
-| หน้าตะกร้าสินค้า | ![Cart Screen](screenshots/cart.png) |
-| หน้า Checkout | ![Checkout Screen](screenshots/checkout.png) |
-| หน้าชำระเงินสำเร็จ | ![Order Success Screen](screenshots/order_success.png) |
+| หน้า Login | <img src="screenshots/login.png" width="250"> |
+| หน้า Register | <img src="screenshots/register.png" width="250"> |
+| หน้า Home แสดงสินค้า | <img src="screenshots/home.png" width="250"> |
+| หน้ารายละเอียดสินค้า | <img src="screenshots/product_detail.png" width="250"> |
+| หน้าเพิ่มหรือแก้ไขสินค้า | <img src="screenshots/product_form.png" width="250"> |
+| หน้าตะกร้าสินค้า | <img src="screenshots/cart.png" width="250"> |
+| หน้า Checkout | <img src="screenshots/checkout.png" width="250"> |
+| หน้าชำระเงินสำเร็จ | <img src="screenshots/order_success.png" width="250"> |
 
 ## คำอธิบาย Provider ที่ใช้
 
