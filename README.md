@@ -1,17 +1,37 @@
-# modern_shop_app
+# Modern Shop - Flutter E-Commerce Application
 
-A new Flutter project.
+Modern Shop เป็นแอปพลิเคชันขายสินค้าออนไลน์ที่พัฒนาด้วย Flutter โดยใช้ Provider สำหรับจัดการ State และเชื่อมต่อข้อมูลสินค้าจาก Web API ผ่าน FakeStoreAPI ตัวแอปออกแบบหน้าตาในแนว Luxury Light Theme ใช้โทนสีขาวและทอง เพื่อให้ดูทันสมัย หรูหรา อ่านง่าย และเหมาะกับแอป E-Commerce
 
-## Getting Started
+## รายละเอียดงานคร่าว ๆ
 
-This project is a starting point for a Flutter application.
+โปรเจกต์นี้เป็น Workshop การพัฒนาแอปขายสินค้าออนไลน์ด้วย Flutter, Provider และ Web API โดยมีระบบหลักดังนี้
 
-A few resources to get you started if this is your first Flutter project:
+- ระบบสมัครสมาชิกและเข้าสู่ระบบ
+- ระบบแสดงรายการสินค้าจาก Web API
+- ระบบค้นหาและกรองหมวดหมู่สินค้า
+- ระบบดูรายละเอียดสินค้า
+- ระบบเพิ่ม แก้ไข และลบสินค้า หรือ CRUD
+- ระบบตะกร้าสินค้า พร้อมเพิ่ม ลด ลบ และคำนวณยอดรวม
+- ระบบสินค้าที่ชื่นชอบ หรือ Wishlist
+- ระบบชำระเงินจำลอง
+- ระบบเปลี่ยนภาษา ไทย / English
+- ออกแบบ UI แนว Luxury Light สีขาว-ทอง
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## เทคโนโลยีและ Package ที่ใช้
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| รายการ | รายละเอียด |
+|---|---|
+| Flutter | ใช้พัฒนาแอปพลิเคชันแบบ Cross-platform |
+| Dart | ภาษาโปรแกรมหลักของ Flutter |
+| Provider | ใช้จัดการ State ของแอป |
+| HTTP | ใช้เรียกข้อมูลจาก Web API |
+| Google Fonts | ใช้ตกแต่งตัวอักษรให้สวยงาม |
+| Shared Preferences | ใช้บันทึกข้อมูลภายในเครื่อง เช่น ภาษาและข้อมูลผู้ใช้ |
+| FakeStoreAPI | ใช้เป็น API จำลองสำหรับดึงข้อมูลสินค้า |
+
+## API ที่ใช้
+
+โปรเจกต์นี้ใช้ FakeStoreAPI สำหรับดึงข้อมูลสินค้า
+
+```text
+https://fakestoreapi.com/products
